@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif; /* More universally available font */
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, grey,black);
+}
+
+.container {
+    max-width: 800px; /* Use max-width for better responsiveness */
+    background: linear-gradient(90deg, orangered, rgb(219, 9, 9)); /* Gradient background */
+    margin: 50px auto; /* Centered margin with less space */
+    padding: 30px; /* More padding for a spacious feel */
+    border-radius: 15px; /* Softer corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+h1 {
+    text-align: center; /* Centered heading */
+    color: white; /* White text for contrast */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+form {
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0px 5px;
+    color: white; /* White text for contrast */
+}
+
+form input, 
+#course {
+    width: 100%; /* Full width */
+    padding: 12px; /* Increased padding for comfort */
+    margin: 10px 0; /* Margin for spacing */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.6); /* Light border */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 16px; /* Increased font size */
+}
+
+#gender {
+    width: auto; /* Allow auto width for select */
+    padding: 5px; /* Padding for select */
+}
+
+button {
+    width: 100%; /* Full-width button */
+    padding: 12px; /* Increased padding */
+    margin-top: 20px; 
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: yellow; /* Change color on hover */
+    color: black; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
+
+
+
+.container-2 {
+    max-width: 1300px; 
+    background: linear-gradient(90deg, orangered, rgb(219, 9, 9));
+    margin: 100px auto; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    color: white;
+
+h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+td:nth-child(2), 
+td:nth-child(5), 
+td:nth-child(6), 
+td:last-child {  
+    white-space: nowrap; 
+    overflow: hidden; /
+    text-overflow: ellipsis; /
+}
+table th, table td {
+    padding: 12px; 
+    width: 100px;
+    text-align: left; 
+    border: solid 1px rgba(255, 255, 255, 0.3); 
+}
+
+table th {
+    background-color: rgba(255, 255, 255, 0.2); 
+    font-weight: bold; 
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+button {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 20px; 
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: yellow; 
+    color: black; 
+}
+
